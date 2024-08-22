@@ -1,0 +1,112 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background: linear-gradient(135deg, #FFD700, #FF4500); 
+    color: #333;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+
+.titulo {
+    font-size: 32px;
+    text-align: center;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    background-image: url('https://example.com/tom-and-jerry-bg.jpg'); 
+    background-size: cover;
+    color: #000000;
+}
+
+
+.navbar {
+    background-color: #FFA500;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navlink {
+    text-decoration: none;
+    color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.navlink:hover {
+    background-color: #FF6347;
+    color: #000;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    margin-bottom: 30px;
+}
+
+section:hover {
+    transform: translateY(-10px);
+}
+
+.maior {
+    grid-column: span 2;
+}
+
+.barra-lateral {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px; 
+}
+
+.comentarios {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    margin-top: 50px; 
+}
+
+
+footer {
+    text-align: center;
+    padding: 40px; 
+    background-color: #FFD700; /* Ouro */
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
+    color: #000;
+    margin-top: 50px; 
+}
+
+.video-container {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .video-container iframe {
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  }
